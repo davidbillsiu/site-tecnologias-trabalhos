@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robô Articulado — Catálogo IoT Industrial</title>
+<meta name="description" content="O modelo mais versátil da robótica industrial: braços com 4 a 6 juntas rotativas que imitam a estrutura do braço humano, alcançando qualquer ponto e orientação dentro do seu envelope de trabalho.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="12" y1="12" x2="12" y2="3" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <line x1="12" y1="12" x2="20" y2="17" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <line x1="12" y1="12" x2="4" y2="17" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <circle cx="12" cy="12" r="2.1" fill="#04211d"/>
+          <circle cx="12" cy="3" r="1.5" fill="#04211d"/>
+          <circle cx="20" cy="17" r="1.5" fill="#04211d"/>
+          <circle cx="4" cy="17" r="1.5" fill="#04211d"/>
+        </svg>
+      </span>
+      <span>Catálogo IoT Industrial</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Abrir menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+
+    <nav class="nav-links">
+      <a href="index.html">Início</a>
+      <a href="sensores.html">Sensores</a>
+      <a href="robos.html" class="active">Robôs</a>
+      <a href="placas.html">Placas</a>
+      <a href="sobre.html">Sobre o Dev</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section style="padding-top:34px;padding-bottom:0;">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Início</a> <span>/</span> <a href="robos.html">Modelos</a> <span>/</span> <span>Robô Articulado</span>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="container detail-hero">
+      <div class="thumb"><img src="img/articulado.png" alt="Robô Articulado de 6 eixos"></div>
+      <div>
+        <span class="tag">Multi-eixo Articulado</span>
+        <h1>Robô Articulado</h1>
+        <p class="lead">O modelo mais versátil da robótica industrial: braços com 4 a 6 juntas rotativas que imitam a estrutura do braço humano, alcançando qualquer ponto e orientação dentro do seu envelope de trabalho.</p>
+        <div class="spec-chips">
+          <span class="chip">Eixos: <b>4 a 6 rotativos</b></span>
+          <span class="chip">Coordenadas: <b>Angulares</b></span>
+          <span class="chip">Carga: <b>poucos kg a +1.000 kg</b></span>
+          <span class="chip">Uso: <b>o mais difundido na indústria</b></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:10px;">
+    <div class="container">
+
+      <div class="content-block">
+        <h2><span class="num">01</span> Conceito</h2>
+        <p>Robôs articulados possuem uma cadeia de juntas rotativas conectadas por elos rígidos, semelhante a um ombro, cotovelo e punho humanos. Essa arquitetura oferece o maior grau de liberdade de movimento entre os tipos de robôs industriais.</p>
+      </div>
+
+      <div class="content-block">
+        <h2><span class="num">02</span> Princípio de Funcionamento</h2>
+        <p>Cada junta é acionada por um servomotor acoplado a um redutor (normalmente harmônico ou cicloidal), que multiplica o torque e garante precisão. O controlador resolve a cinemática do braço para transformar comandos de posição/orientação da ferramenta em ângulos de cada junta, permitindo trajetórias tridimensionais complexas.</p>
+      </div>
+
+      <div class="two-col">
+        <div class="content-block">
+          <h2><span class="num">03</span> Características Técnicas</h2>
+          <ul class="check-list">
+            <li>6 graus de liberdade na maioria dos modelos industriais</li>
+            <li>Grande alcance e liberdade de orientação da ferramenta</li>
+            <li>Ampla faixa de capacidade de carga, de poucos kg a mais de uma tonelada</li>
+            <li>Alta precisão e repetibilidade mesmo em trajetórias complexas</li>
+            <li>Programação mais elaborada, geralmente com simulação de cinemática</li>
+          </ul>
+        </div>
+
+        <div class="content-block">
+          <h2><span class="num">04</span> Aplicações Industriais</h2>
+          <div class="app-tags">
+            <span>Solda a ponto e MIG/MAG</span>
+            <span>Pintura industrial</span>
+            <span>Manuseio e transferência de materiais</span>
+            <span>Montagem complexa</span>
+            <span>Paletização de alta capacidade</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-block">
+        <h2><span class="num">05</span> Integração com Automação e IoT</h2>
+        <p>Controladores modernos publicam dados de torque, vibração, corrente dos motores e temperatura via Profinet, EtherNet/IP ou OPC UA para plataformas de manutenção preditiva, além de se integrarem a sistemas de visão e CLPs de linha para coordenação com outras estações.</p>
+      </div>
+
+      <div class="content-block">
+        <h2><span class="num">06</span> Modelos Comerciais</h2>
+        <div class="models-grid">
+          <div class="model-card">
+            <div class="brand-tag">HIWIN</div>
+            <h4>Série RA / RT</h4>
+            <ul>
+              <li>6 eixos</li>
+              <li>Carga útil: 3 a 20 kg</li>
+              <li>Alcance: até 1.400 mm</li>
+            </ul>
+          </div>
+          <div class="model-card">
+            <div class="brand-tag">FANUC</div>
+            <h4>Série M-20iA</h4>
+            <ul>
+              <li>Carga útil: 20 a 35 kg</li>
+              <li>Repetibilidade: ±0,02 mm</li>
+              <li>Amplamente usado em solda e manuseio</li>
+            </ul>
+          </div>
+          <div class="model-card">
+            <div class="brand-tag">KUKA</div>
+            <h4>Série KR QUANTEC</h4>
+            <ul>
+              <li>Carga útil: até 300 kg</li>
+              <li>Alcance: até 3.100 mm</li>
+              <li>Popular em linhas automotivas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="pagenav">
+        <a href="scara.html">
+          <div class="dir">&larr; Anterior</div>
+          <div class="name">Robô SCARA</div>
+        </a>
+        <a href="cilindrico.html" class="next">
+          <div class="dir">Próximo &rarr;</div>
+          <div class="name">Robô Cilíndrico</div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-social">
+        <a href="https://www.instagram.com/davi.hams/" target="_blank" rel="noopener" aria-label="Instagram"><img src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://wa.me/5547991161333" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+        <a href="mailto:airosodavi07@gmail.com" aria-label="E-mail"><img src="img/gmail.png" alt="E-mail"></a>
+        <a href="https://github.com/davidbillsiu" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.9-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.48A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+        </a>
+      </div>
+      <a href="mailto:airosodavi07@gmail.com" class="footer-email">airosodavi07@gmail.com</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

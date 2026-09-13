@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robô Polar — Catálogo IoT Industrial</title>
+<meta name="description" content="Um dos formatos pioneiros da robótica: dois eixos rotativos (base e ombro) e um eixo linear de extensão definem a posição do efetuador em coordenadas esféricas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="12" y1="12" x2="12" y2="3" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <line x1="12" y1="12" x2="20" y2="17" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <line x1="12" y1="12" x2="4" y2="17" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <circle cx="12" cy="12" r="2.1" fill="#04211d"/>
+          <circle cx="12" cy="3" r="1.5" fill="#04211d"/>
+          <circle cx="20" cy="17" r="1.5" fill="#04211d"/>
+          <circle cx="4" cy="17" r="1.5" fill="#04211d"/>
+        </svg>
+      </span>
+      <span>Catálogo IoT Industrial</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Abrir menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+
+    <nav class="nav-links">
+      <a href="index.html">Início</a>
+      <a href="sensores.html">Sensores</a>
+      <a href="robos.html" class="active">Robôs</a>
+      <a href="placas.html">Placas</a>
+      <a href="sobre.html">Sobre o Dev</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section style="padding-top:34px;padding-bottom:0;">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Início</a> <span>/</span> <a href="robos.html">Modelos</a> <span>/</span> <span>Robô Polar</span>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="container detail-hero">
+      <div class="thumb"><img src="img/polar.png" alt="Robô Polar de coordenadas esféricas"></div>
+      <div>
+        <span class="tag">Coordenadas Esféricas (Polar)</span>
+        <h1>Robô Polar</h1>
+        <p class="lead">Um dos formatos pioneiros da robótica: dois eixos rotativos (base e ombro) e um eixo linear de extensão definem a posição do efetuador em coordenadas esféricas.</p>
+        <div class="spec-chips">
+          <span class="chip">Eixos: <b>2 rotativos + 1 linear</b></span>
+          <span class="chip">Coordenadas: <b>Esféricas</b></span>
+          <span class="chip">Envelope: <b>formato esférico</b></span>
+          <span class="chip">Origem: <b>o primeiro robô industrial, 1961</b></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:10px;">
+    <div class="container">
+
+      <div class="content-block">
+        <h2><span class="num">01</span> Conceito</h2>
+        <p>O robô polar (ou de coordenadas esféricas) foi a arquitetura do primeiro robô industrial da história. A posição do efetuador é definida por um ângulo de rotação da base, um ângulo de elevação do braço e uma distância radial de extensão — como localizar um ponto por latitude, longitude e distância.</p>
+      </div>
+
+      <div class="content-block">
+        <h2><span class="num">02</span> Princípio de Funcionamento</h2>
+        <p>A base gira em torno de um eixo vertical (azimute); um segundo eixo rotativo inclina o braço para cima ou para baixo (elevação); e um terceiro eixo, prismático, estende ou recolhe o braço radialmente. A combinação desses três movimentos gera um envelope de trabalho esférico.</p>
+      </div>
+
+      <div class="two-col">
+        <div class="content-block">
+          <h2><span class="num">03</span> Características Técnicas</h2>
+          <ul class="check-list">
+            <li>Arquitetura pioneira da robótica industrial</li>
+            <li>Envelope de trabalho esférico com bom alcance</li>
+            <li>Poucos graus de liberdade comparado a articulados modernos</li>
+            <li>Estrutura mecânica robusta, historicamente com acionamento hidráulico</li>
+            <li>Hoje amplamente substituído por robôs articulados</li>
+          </ul>
+        </div>
+
+        <div class="content-block">
+          <h2><span class="num">04</span> Aplicações Industriais</h2>
+          <div class="app-tags">
+            <span>Manuseio de materiais em pontos fixos</span>
+            <span>Soldagem por pontos</span>
+            <span>Carga e descarga de prensas</span>
+            <span>Pintura por pulverização (variante histórica)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-block">
+        <h2><span class="num">05</span> Integração com Automação e IoT</h2>
+        <p>Unidades legadas ainda em operação costumam ser retrofitadas com sensores adicionais e gateways IoT, permitindo que dados básicos de ciclo e status sejam enviados a sistemas de supervisão modernos, mesmo sem substituir o controlador original.</p>
+      </div>
+
+      <div class="content-block">
+        <h2><span class="num">06</span> Modelos Comerciais</h2>
+        <div class="models-grid">
+          <div class="model-card">
+            <div class="brand-tag">Unimation</div>
+            <h4>Unimate</h4>
+            <ul>
+              <li>O primeiro robô industrial da história (1961)</li>
+              <li>Coordenadas esféricas, acionamento hidráulico</li>
+              <li>Instalado pioneiramente na GM</li>
+            </ul>
+          </div>
+          <div class="model-card">
+            <div class="brand-tag">Kawasaki Heavy Industries</div>
+            <h4>Kawasaki-Unimate 2000</h4>
+            <ul>
+              <li>Licenciado da Unimation em 1969</li>
+              <li>Primeiro robô industrial fabricado no Japão</li>
+              <li>Base para a robótica industrial japonesa</li>
+            </ul>
+          </div>
+          <div class="model-card">
+            <div class="brand-tag">Trallfa (posteriormente incorporada pela ABB)</div>
+            <h4>Robôs de pintura por pulverização</h4>
+            <ul>
+              <li>Coordenadas polares</li>
+              <li>Pioneiro em pintura automotiva automatizada</li>
+              <li>Origem norueguesa, década de 1960</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="pagenav">
+        <a href="delta.html">
+          <div class="dir">&larr; Anterior</div>
+          <div class="name">Robô Delta</div>
+        </a>
+        <a href="colaborativo.html" class="next">
+          <div class="dir">Próximo &rarr;</div>
+          <div class="name">Robô Colaborativo (Cobot)</div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-social">
+        <a href="https://www.instagram.com/davi.hams/" target="_blank" rel="noopener" aria-label="Instagram"><img src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://wa.me/5547991161333" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+        <a href="mailto:airosodavi07@gmail.com" aria-label="E-mail"><img src="img/gmail.png" alt="E-mail"></a>
+        <a href="https://github.com/davidbillsiu" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.9-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.48A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+        </a>
+      </div>
+      <a href="mailto:airosodavi07@gmail.com" class="footer-email">airosodavi07@gmail.com</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

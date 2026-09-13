@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robô SCARA — Catálogo IoT Industrial</title>
+<meta name="description" content="Sigla para Selective Compliance Assembly Robot Arm: dois eixos rotativos horizontais e paralelos movem o efetuador em um plano, enquanto um eixo linear (Z) controla a altura — resultando em ciclos muito rápidos para tarefas leves.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="12" y1="12" x2="12" y2="3" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <line x1="12" y1="12" x2="20" y2="17" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <line x1="12" y1="12" x2="4" y2="17" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <circle cx="12" cy="12" r="2.1" fill="#04211d"/>
+          <circle cx="12" cy="3" r="1.5" fill="#04211d"/>
+          <circle cx="20" cy="17" r="1.5" fill="#04211d"/>
+          <circle cx="4" cy="17" r="1.5" fill="#04211d"/>
+        </svg>
+      </span>
+      <span>Catálogo IoT Industrial</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Abrir menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+
+    <nav class="nav-links">
+      <a href="index.html">Início</a>
+      <a href="sensores.html">Sensores</a>
+      <a href="robos.html" class="active">Robôs</a>
+      <a href="placas.html">Placas</a>
+      <a href="sobre.html">Sobre o Dev</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section style="padding-top:34px;padding-bottom:0;">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Início</a> <span>/</span> <a href="robos.html">Modelos</a> <span>/</span> <span>Robô SCARA</span>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="container detail-hero">
+      <div class="thumb"><img src="img/scara.png" alt="Robô SCARA de braço horizontal articulado"></div>
+      <div>
+        <span class="tag">Complacência Seletiva (SCARA)</span>
+        <h1>Robô SCARA</h1>
+        <p class="lead">Sigla para Selective Compliance Assembly Robot Arm: dois eixos rotativos horizontais e paralelos movem o efetuador em um plano, enquanto um eixo linear (Z) controla a altura — resultando em ciclos muito rápidos para tarefas leves.</p>
+        <div class="spec-chips">
+          <span class="chip">Eixos: <b>2 rotativos + 1 linear (+R)</b></span>
+          <span class="chip">Coordenadas: <b>Cilíndricas/planas</b></span>
+          <span class="chip">Repetibilidade: <b>±0,01 a 0,05 mm</b></span>
+          <span class="chip">Carga: <b>1 a 20 kg</b></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:10px;">
+    <div class="container">
+
+      <div class="content-block">
+        <h2><span class="num">01</span> Conceito</h2>
+        <p>O SCARA é otimizado para movimentos rápidos em um plano horizontal, com alta rigidez vertical e certa complacência (flexibilidade) lateral — daí o nome 'complacência seletiva'. Essa característica facilita o encaixe de peças, como pinos em furos, durante a montagem.</p>
+      </div>
+
+      <div class="content-block">
+        <h2><span class="num">02</span> Princípio de Funcionamento</h2>
+        <p>Dois braços giram em torno de eixos verticais paralelos, posicionando o pulso no plano XY. Um terceiro eixo linear (Z) desce e sobe o efetuador, e um quarto eixo (R) frequentemente gira a ferramenta. A cinemática relativamente simples permite ciclos de trabalho muito curtos.</p>
+      </div>
+
+      <div class="two-col">
+        <div class="content-block">
+          <h2><span class="num">03</span> Características Técnicas</h2>
+          <ul class="check-list">
+            <li>Ciclos de trabalho muito rápidos para peças leves</li>
+            <li>Alta precisão de repetibilidade</li>
+            <li>Área de trabalho em formato de anel/setor circular</li>
+            <li>Boa relação velocidade × carga útil</li>
+            <li>Estrutura compacta, ocupa pouco espaço de chão</li>
+          </ul>
+        </div>
+
+        <div class="content-block">
+          <h2><span class="num">04</span> Aplicações Industriais</h2>
+          <div class="app-tags">
+            <span>Montagem eletrônica</span>
+            <span>Inserção de componentes</span>
+            <span>Dispensação de adesivos</span>
+            <span>Paletização leve</span>
+            <span>Testes automatizados de qualidade</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-block">
+        <h2><span class="num">05</span> Integração com Automação e IoT</h2>
+        <p>Controladores SCARA modernos se conectam via EtherCAT ou Modbus TCP a sistemas MES, permitindo rastreabilidade peça a peça e ajuste de parâmetros de processo (velocidade, força de inserção) em tempo real a partir de dados coletados na linha.</p>
+      </div>
+
+      <div class="content-block">
+        <h2><span class="num">06</span> Modelos Comerciais</h2>
+        <div class="models-grid">
+          <div class="model-card">
+            <div class="brand-tag">Delta Electronics</div>
+            <h4>Série DRS</h4>
+            <ul>
+              <li>Alcance: até 800 mm</li>
+              <li>Repetibilidade: ±0,01 a 0,02 mm</li>
+              <li>Comunicação: EtherCAT</li>
+            </ul>
+          </div>
+          <div class="model-card">
+            <div class="brand-tag">Epson Robots</div>
+            <h4>Série T / G</h4>
+            <ul>
+              <li>Ciclo padrão: menos de 0,4 s</li>
+              <li>Carga útil: até 20 kg</li>
+              <li>Controlador com visão integrada</li>
+            </ul>
+          </div>
+          <div class="model-card">
+            <div class="brand-tag">Yamaha Robotics</div>
+            <h4>Série YK</h4>
+            <ul>
+              <li>Alcance: 350 a 1.000 mm</li>
+              <li>Alta velocidade angular</li>
+              <li>Uso extensivo em eletrônicos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="pagenav">
+        <a href="cartesiano.html">
+          <div class="dir">&larr; Anterior</div>
+          <div class="name">Robô Cartesiano</div>
+        </a>
+        <a href="articulado.html" class="next">
+          <div class="dir">Próximo &rarr;</div>
+          <div class="name">Robô Articulado</div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-social">
+        <a href="https://www.instagram.com/davi.hams/" target="_blank" rel="noopener" aria-label="Instagram"><img src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://wa.me/5547991161333" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+        <a href="mailto:airosodavi07@gmail.com" aria-label="E-mail"><img src="img/gmail.png" alt="E-mail"></a>
+        <a href="https://github.com/davidbillsiu" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.9-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.48A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+        </a>
+      </div>
+      <a href="mailto:airosodavi07@gmail.com" class="footer-email">airosodavi07@gmail.com</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

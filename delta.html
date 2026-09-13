@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robô Delta — Catálogo IoT Industrial</title>
+<meta name="description" content="Uma estrutura paralela suspensa acima da linha de produção: três braços leves ligam a base fixa a uma plataforma móvel, permitindo acelerações extremas com baixíssima inércia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="12" y1="12" x2="12" y2="3" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <line x1="12" y1="12" x2="20" y2="17" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <line x1="12" y1="12" x2="4" y2="17" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <circle cx="12" cy="12" r="2.1" fill="#04211d"/>
+          <circle cx="12" cy="3" r="1.5" fill="#04211d"/>
+          <circle cx="20" cy="17" r="1.5" fill="#04211d"/>
+          <circle cx="4" cy="17" r="1.5" fill="#04211d"/>
+        </svg>
+      </span>
+      <span>Catálogo IoT Industrial</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Abrir menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+
+    <nav class="nav-links">
+      <a href="index.html">Início</a>
+      <a href="sensores.html">Sensores</a>
+      <a href="robos.html" class="active">Robôs</a>
+      <a href="placas.html">Placas</a>
+      <a href="sobre.html">Sobre o Dev</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section style="padding-top:34px;padding-bottom:0;">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Início</a> <span>/</span> <a href="robos.html">Modelos</a> <span>/</span> <span>Robô Delta</span>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="container detail-hero">
+      <div class="thumb"><img src="img/delta.png" alt="Robô Delta de estrutura paralela"></div>
+      <div>
+        <span class="tag">Estrutura Paralela (Delta)</span>
+        <h1>Robô Delta</h1>
+        <p class="lead">Uma estrutura paralela suspensa acima da linha de produção: três braços leves ligam a base fixa a uma plataforma móvel, permitindo acelerações extremas com baixíssima inércia.</p>
+        <div class="spec-chips">
+          <span class="chip">Estrutura: <b>cinemática paralela</b></span>
+          <span class="chip">Movimento: <b>translação pura, 3–4 GDL</b></span>
+          <span class="chip">Velocidade: <b>altíssima, dezenas de m/s²</b></span>
+          <span class="chip">Carga: <b>tipicamente até 8 kg</b></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:10px;">
+    <div class="container">
+
+      <div class="content-block">
+        <h2><span class="num">01</span> Conceito</h2>
+        <p>Diferente dos robôs seriais — em que cada junta carrega o peso de todas as anteriores — o robô Delta usa uma cinemática paralela: os motores ficam fixos na base e movem braços leves que restringem a plataforma final a puros movimentos de translação, sem rotação. Daí sua velocidade extraordinária.</p>
+      </div>
+
+      <div class="content-block">
+        <h2><span class="num">02</span> Princípio de Funcionamento</h2>
+        <p>Cada um dos três (ou quatro) motores da base aciona um braço superior rígido conectado a um par de hastes leves (paralelogramo) até a plataforma móvel. A geometria do paralelogramo garante que a plataforma se mova apenas em X, Y e Z, sem girar, o que simplifica o controle e permite altíssimas acelerações.</p>
+      </div>
+
+      <div class="two-col">
+        <div class="content-block">
+          <h2><span class="num">03</span> Características Técnicas</h2>
+          <ul class="check-list">
+            <li>Velocidades e acelerações muito superiores às de robôs seriais</li>
+            <li>Baixa inércia, já que os motores não se deslocam com o braço</li>
+            <li>Área de trabalho em formato de sino invertido, geralmente compacta</li>
+            <li>Capacidade de carga limitada a peças leves</li>
+            <li>Frequentemente integrado a sistemas de visão computacional</li>
+          </ul>
+        </div>
+
+        <div class="content-block">
+          <h2><span class="num">04</span> Aplicações Industriais</h2>
+          <div class="app-tags">
+            <span>Picking de alta velocidade (alimentos e farmacêutica)</span>
+            <span>Embalagem primária</span>
+            <span>Triagem e classificação de itens</span>
+            <span>Montagem eletrônica leve</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-block">
+        <h2><span class="num">05</span> Integração com Automação e IoT</h2>
+        <p>Sistemas de visão computacional rastreiam itens em uma esteira e enviam coordenadas em tempo real ao controlador do robô via Ethernet/IP, formando um ciclo fechado de captura de imagem, decisão e movimento. Dados de produtividade alimentam painéis MES/SCADA.</p>
+      </div>
+
+      <div class="content-block">
+        <h2><span class="num">06</span> Modelos Comerciais</h2>
+        <div class="models-grid">
+          <div class="model-card">
+            <div class="brand-tag">ABB</div>
+            <h4>FlexPicker (IRB 360)</h4>
+            <ul>
+              <li>Ciclos: até ~100 picks/min</li>
+              <li>Carga útil: 1 a 8 kg</li>
+              <li>Guiado por visão computacional integrada</li>
+            </ul>
+          </div>
+          <div class="model-card">
+            <div class="brand-tag">FANUC</div>
+            <h4>M-2iA</h4>
+            <ul>
+              <li>4 eixos (translação + rotação da garra)</li>
+              <li>Alta velocidade para embalagem</li>
+              <li>Versão com grau de proteção IP67</li>
+            </ul>
+          </div>
+          <div class="model-card">
+            <div class="brand-tag">Omron (Adept)</div>
+            <h4>Quattro / Hornet</h4>
+            <ul>
+              <li>Estrutura de 4 braços paralelos</li>
+              <li>Alta rigidez e velocidade</li>
+              <li>Uso extensivo na indústria farmacêutica</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="pagenav">
+        <a href="cilindrico.html">
+          <div class="dir">&larr; Anterior</div>
+          <div class="name">Robô Cilíndrico</div>
+        </a>
+        <a href="polar.html" class="next">
+          <div class="dir">Próximo &rarr;</div>
+          <div class="name">Robô Polar</div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-social">
+        <a href="https://www.instagram.com/davi.hams/" target="_blank" rel="noopener" aria-label="Instagram"><img src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://wa.me/5547991161333" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+        <a href="mailto:airosodavi07@gmail.com" aria-label="E-mail"><img src="img/gmail.png" alt="E-mail"></a>
+        <a href="https://github.com/davidbillsiu" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.9-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.48A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+        </a>
+      </div>
+      <a href="mailto:airosodavi07@gmail.com" class="footer-email">airosodavi07@gmail.com</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

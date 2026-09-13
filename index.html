@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo IoT Industrial — Sensores, Robôs e Placas</title>
+<meta name="description" content="Catálogo técnico de sensores, robôs industriais e placas microcontroladoras (Arduino, ESP32) para projetos de Internet das Coisas e Automação Industrial.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="12" y1="12" x2="12" y2="3" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <line x1="12" y1="12" x2="20" y2="17" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <line x1="12" y1="12" x2="4" y2="17" stroke="#04211d" stroke-width="1.7" stroke-linecap="round"/>
+          <circle cx="12" cy="12" r="2.1" fill="#04211d"/>
+          <circle cx="12" cy="3" r="1.5" fill="#04211d"/>
+          <circle cx="20" cy="17" r="1.5" fill="#04211d"/>
+          <circle cx="4" cy="17" r="1.5" fill="#04211d"/>
+        </svg>
+      </span>
+      <span>Catálogo IoT Industrial</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Abrir menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+
+    <nav class="nav-links">
+      <a href="index.html" class="active">Início</a>
+      <a href="sensores.html">Sensores</a>
+      <a href="robos.html">Robôs</a>
+      <a href="placas.html">Placas</a>
+      <a href="sobre.html">Sobre o Dev</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero hero-simple">
+    <div class="container">
+      <span class="eyebrow">Indústria 4.0</span>
+      <h1>Sensores, robôs e placas conectados à <span>Internet das Coisas</span></h1>
+      <p class="lead" style="max-width:62ch;margin:0 auto 0;text-align:center;">
+        Um catálogo técnico e educativo sobre os principais componentes da automação industrial moderna:
+        sensores, robôs industriais e as placas microcontroladoras (Arduino e ESP32) que os conectam à nuvem.
+      </p>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ================= CONCEITOS ================= -->
+  <section id="conceitos">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Fundamentos</span>
+        <h2>Os conceitos por trás da Indústria 4.0</h2>
+        <p>Antes de explorar cada sensor, robô ou placa, vale entender as ideias que conectam automação, robótica e conectividade dentro da fábrica moderna.</p>
+      </div>
+
+      <div class="concept-grid">
+        <div class="concept-card">
+          <div class="concept-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="2.3"/><circle cx="4" cy="5" r="2"/><circle cx="20" cy="5" r="2"/><circle cx="4" cy="19" r="2"/><circle cx="20" cy="19" r="2"/>
+              <path d="M6 6.3 10.3 10.5M17.7 10.5 18 6.3M6 17.7 10.3 13.5M18 17.7 13.7 13.5"/>
+            </svg>
+          </div>
+          <h3>Internet das Coisas (IoT)</h3>
+          <p>É a rede de objetos físicos — sensores, máquinas, robôs, placas — equipados com eletrônica e conectividade para coletar e trocar dados pela internet. Na fábrica, a IoT industrial (IIoT) transforma cada equipamento em uma fonte de dados em tempo real.</p>
+        </div>
+
+        <div class="concept-card">
+          <div class="concept-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19h16M6 19V9l6-4 6 4v10M10 19v-5h4v5"/>
+            </svg>
+          </div>
+          <h3>Sensoriamento Industrial</h3>
+          <p>Os sensores captam grandezas físicas do ambiente — temperatura, distância, luminosidade, movimento — e as convertem em sinais elétricos. São os "sentidos" de uma linha de produção, permitindo monitorar condições em tempo real e ajustar processos automaticamente.</p>
+        </div>
+
+        <div class="concept-card">
+          <div class="concept-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="6" r="2.4"/><path d="M12 8.4V13"/><path d="M8 13h8l1.5 6h-11z"/><path d="M8.5 19 7 22M15.5 19 17 22"/>
+            </svg>
+          </div>
+          <h3>Robótica Industrial</h3>
+          <p>Área da automação dedicada a projetar, construir e operar manipuladores mecânicos programáveis capazes de executar tarefas repetitivas, precisas ou perigosas com mais velocidade e consistência do que um processo manual.</p>
+        </div>
+
+        <div class="concept-card">
+          <div class="concept-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M15 4v16M4 9h16M4 15h16"/>
+            </svg>
+          </div>
+          <h3>Placas Microcontroladoras</h3>
+          <p>Arduino, ESP32 e placas semelhantes são o "cérebro" que lê os sensores e aciona atuadores. Executam um programa gravado via USB e, no caso do ESP32, enviam esses dados direto para a nuvem através de Wi-Fi e Bluetooth integrados.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ================= CATEGORIAS ================= -->
+  <section id="categorias">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Catálogo</span>
+        <h2>Explore por categoria</h2>
+        <p>Cada área reúne conceito, funcionamento, especificações técnicas e exemplos práticos — incluindo vídeos reais de bancada.</p>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card" href="sensores.html">
+          <div class="category-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19h16M6 19V9l6-4 6 4v10M10 19v-5h4v5"/>
+            </svg>
+          </div>
+          <span class="count">10 sensores</span>
+          <h3>Sensores Industriais</h3>
+          <p>Temperatura, umidade, luminosidade, distância, movimento e proximidade — com exemplos de código Arduino.</p>
+          <span class="link">Ver catálogo
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </a>
+
+        <a class="category-card" href="robos.html">
+          <div class="category-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="6" r="2.4"/><path d="M12 8.4V13"/><path d="M8 13h8l1.5 6h-11z"/>
+            </svg>
+          </div>
+          <span class="count">7 modelos</span>
+          <h3>Robôs Industriais</h3>
+          <p>Cartesiano, SCARA, articulado, cilíndrico, delta, polar e colaborativo — com integração IoT e exemplos comerciais.</p>
+          <span class="link">Ver catálogo
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </a>
+
+        <a class="category-card" href="placas.html">
+          <div class="category-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M15 4v16M4 9h16M4 15h16"/>
+            </svg>
+          </div>
+          <span class="count">Arduino &amp; ESP32</span>
+          <h3>Placas &amp; Microcontroladores</h3>
+          <p>O que é e como funciona cada placa, com vídeos reais de circuitos montados em protoboard.</p>
+          <span class="link">Ver catálogo
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-social">
+        <a href="https://www.instagram.com/davi.hams/" target="_blank" rel="noopener" aria-label="Instagram"><img src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://wa.me/5547991161333" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+        <a href="mailto:airosodavi07@gmail.com" aria-label="E-mail"><img src="img/gmail.png" alt="E-mail"></a>
+        <a href="https://github.com/davidbillsiu" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.9-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.48A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+        </a>
+      </div>
+      <a href="mailto:airosodavi07@gmail.com" class="footer-email">airosodavi07@gmail.com</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
