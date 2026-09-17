@@ -965,6 +965,18 @@ section{ padding: 60px 0; }
 }
 .video-card h4{ font-size: 0.98rem; margin: 6px 0 6px; }
 .video-card p{ color: var(--text-muted); font-size: 0.85rem; }
+.video-card .video-link{
+  margin-top: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--teal);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+}
+.video-card .video-link svg{ width: 14px; height: 14px; transition: transform .15s ease; }
+.video-card .video-link:hover svg{ transform: translateX(3px); }
 
 @media (max-width: 900px){
   .category-grid{ grid-template-columns: 1fr; }
